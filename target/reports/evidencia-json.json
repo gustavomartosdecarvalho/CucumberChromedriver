@@ -1,0 +1,90 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-24T22:50:42.984Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1560314978,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUpTest()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Open Google",
+        "description": "",
+        "id": "google-pageobject;open-google",
+        "after": [
+          {
+            "result": {
+              "duration": 389881110,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 817128800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open the browser and navigate to \"https://www.google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com\"",
+                  "offset": 35
+                }
+              ],
+              "location": "TestGoogleStep.i_open_the_browser_and_navigate_to_google(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7320066,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate the title",
+            "match": {
+              "location": "TestGoogleStep.i_validate_the_title()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "Google PageObject",
+    "description": "  I want to use this template for my feature file",
+    "id": "google-pageobject",
+    "keyword": "Feature",
+    "uri": "classpath:features/TestGoogle.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
